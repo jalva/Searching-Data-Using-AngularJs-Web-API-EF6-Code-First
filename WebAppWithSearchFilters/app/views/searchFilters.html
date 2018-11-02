@@ -1,0 +1,42 @@
+﻿<div class="slide-menu" ng-class="{'out':!showFilters}">
+    <div class="panel panel-default search-panel">
+        <div class="panel-heading clearfix">
+            <h3 class="panel-title" style="float:left">
+                Search Filters
+            </h3>
+        </div>
+        <div class="panel-body search-filters-container">
+            <form>
+                <div class="filters-container" ng-class="{'open':openFiltersContainer}">
+
+                    <!-- render filters -->
+                    <div class="form-group filters-accordion-panel" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default" role="tab" id="heading{{$index}}"
+                             ng-repeat="filter in $ctrl.filters"
+                             ng-show="(!filter.hidden && (filter.filterTerms && filter.filterTerms.length > 0) && filter.filterQsKey != 'x')">
+
+                            <div class="panel-heading filter-heading">
+                                <h4 class="panel-title filter-name" ng-class="{'collapsed':false}" data-toggle="collapse" data-target="#collapse{{$index}}">
+                                    <a href><span class="up glyphicon glyphicon-chevron-up" aria-hidden="true"></span></a>
+                                    <a href><span class="down glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
+                                    <span>{{filter.filterName}}</span>
+                                </h4>
+                            </div>
+                            <div id="collapse{{$index}}" class="panel-collapse collapse in">
+                                <div class="panel-body filter-panel-body">
+
+                                    <!-- checkbox filter -->
+                                    <checkbox-filter filter="filter"></checkbox-filter>
+                                    <!-- /end checkbox filter -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /end filters -->
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

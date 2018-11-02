@@ -1,0 +1,7 @@
+﻿<ul class="list-inline filters-selected" style="float:left" ng-show="selectedFilters.length > 0">
+    <li class="filter-term-selected" ng-repeat="term in selectedFilters">
+        <button class="btn btn-default" ng-click="removeFilterTerm(term)">
+            {{term.name}} <span class="glyphicon glyphicon-remove"></span>
+        </button>
+    </li>
+</ul>

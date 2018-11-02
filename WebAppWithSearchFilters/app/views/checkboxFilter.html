@@ -1,0 +1,15 @@
+﻿<div class="checkbox" ng-class="{active:filterTerm.selected}"
+     ng-repeat="filterTerm in $ctrl.filter.filterTerms">
+    <label ng-class="{'disabled-lbl':filterTerm.count == 0}">
+        <input type="checkbox" ng-model="filterTerm.selected"
+               ng-change="$ctrl.selectFilter(filterTerm)" ng-disabled="filterTerm.count == 0" />
+        {{filterTerm.name}}
+        <span class="counts">({{filterTerm.count}})</span>
+    </label>
+    <div class="nested-filter-terms" ng-show="::(filterTerm.nestedFilters && filterTerm.nestedFilters.length > 0)" style="padding-left: 15px;">
+        <div ng-repeat="nestedFilter in ::filterTerm.nestedFilters">
+            <checkbox-filter filter="nestedFilter" on-filter-selected="$ctrl.onFilterSelected(nestedFilter, filterTerm)" 
+                             parent-filter-term="filterTerm"></checkbox-filter>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+﻿<h4>Search Results</h4>
+
+<table style="table-layout: fixed;font-size:13px;"
+       class="table testruns-table table-striped">
+    <tbody>
+        <tr>
+            <th ng-repeat="column in $ctrl.columns"
+                class="text-center column-header"
+                ng-style="column.width?{width:column.width}:{}"
+                ng-class="{
+                    'sort-asc': !column.orderDesc,
+                    'sort-desc': column.orderDesc,
+                    'sortable': column.sortable,
+                    'sorting-col': column.orderBySelected
+                }"
+                ng-click="$ctrl.toggleColSort(column)">
+                <span class="glyphicon" ng-class="{
+                    'glyphicon-chevron-up': column.orderBySelected && !column.orderDesc,
+                    'glyphicon-chevron-down': column.orderBySelected && column.orderDesc
+                }"></span>
+                {{column.title}}
+            </th>
+        </tr>
+        <tr ng-repeat="item in $ctrl.results"
+            ng-class="{'active': isCollapsed}">
+            <th ng-repeat="column in $ctrl.columns">
+                {{item[column.field]}}
+            </th>
+        </tr>
+    </tbody>
+</table>
+

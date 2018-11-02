@@ -1,0 +1,24 @@
+﻿
+<alert ng-repeat="alert in alerts" type="{{alert.type}}"
+       close="closeAlert($index)">{{alert.msg}}</alert>
+
+<div class="row">
+    <div class="col-sm-4">
+
+        <!-- Search filters section -->
+        <search-filters filters="$ctrl.filters"></search-filters>
+    </div>
+
+    <div class="col-sm-8">
+
+        <!-- Selected filters display -->
+        <selected-filters selected-filters="$ctrl.selectedFilters"></selected-filters>
+
+        <!-- Search results section -->
+        <search-results columns="$ctrl.columns" results="$ctrl.results"></search-results>
+
+        <!-- Search pagination -->
+        <search-pagination total-results-count="$ctrl.totalResultsCount" page-size="$ctrl.pageSize"></search-pagination>
+    </div>
+
+</div>
