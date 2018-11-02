@@ -1,0 +1,191 @@
+[
+  {
+    "filterName": "Author",
+    "filterQsKey": "author",
+    "filterTerms": [
+      {
+        "id": "1",
+        "name": "Fyodor Dostoyevsky",
+        "count": 2,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "2",
+        "name": "Leo Tolstoy",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "3",
+        "name": "Constantin  de Grunwald",
+        "count": 2,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "4",
+        "name": "Viola Garvin",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "5",
+        "name": "Ian Grey",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      }
+    ]
+  },
+  {
+    "filterName": "Protagonist",
+    "filterQsKey": "protagonist",
+    "filterTerms": [
+      {
+        "id": "1",
+        "name": "Alexei Karamazov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "2",
+        "name": "Dmitri Karamazov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "3",
+        "name": "Ivan Karamazov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "4",
+        "name": "Fyodor Karamazov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "5",
+        "name": "Rodion Raskolnikov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "6",
+        "name": "Sofya Marmeladov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "7",
+        "name": "Avdotya Raskolnikov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "8",
+        "name": "Anna Pavlovna",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "9",
+        "name": "Pierre Bezukhov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "10",
+        "name": "Peter the Great",
+        "count": 2,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "11",
+        "name": "Nicholas Romanov",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      }
+    ]
+  },
+  {
+    "filterName": "Country",
+    "filterQsKey": "country",
+    "filterTerms": [
+      {
+        "id": "1",
+        "name": "Russia",
+        "count": 3,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "2",
+        "name": "England",
+        "count": 3,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      },
+      {
+        "id": "3",
+        "name": "New Zeland",
+        "count": 1,
+        "image": null,
+        "selected": false,
+        "nestedFilters": null,
+        "isAllOption": false
+      }
+    ]
+  }
+]

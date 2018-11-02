@@ -1,0 +1,127 @@
+{
+  "results": [
+    {
+      "bookId": 6,
+      "title": "Tsar Nicholas I: Life of An Absolute Monarch",
+      "authors": [
+        {
+          "authorId": 3,
+          "firstName": "Constantin",
+          "lastName": " de Grunwald",
+          "country": null,
+          "fullName": "Constantin  de Grunwald"
+        }
+      ],
+      "protagonists": [
+        {
+          "protagonistId": 11,
+          "firstName": "Nicholas",
+          "lastName": "Romanov"
+        }
+      ]
+    },
+    {
+      "bookId": 5,
+      "title": "Peter the Great: Emperor of All Russia",
+      "authors": [
+        {
+          "authorId": 5,
+          "firstName": "Ian",
+          "lastName": "Grey",
+          "country": null,
+          "fullName": "Ian Grey"
+        }
+      ],
+      "protagonists": [
+        {
+          "protagonistId": 10,
+          "firstName": "Peter",
+          "lastName": "the Great"
+        }
+      ]
+    },
+    {
+      "bookId": 4,
+      "title": "Peter the Great",
+      "authors": [
+        {
+          "authorId": 3,
+          "firstName": "Constantin",
+          "lastName": " de Grunwald",
+          "country": null,
+          "fullName": "Constantin  de Grunwald"
+        },
+        {
+          "authorId": 4,
+          "firstName": "Viola",
+          "lastName": "Garvin",
+          "country": null,
+          "fullName": "Viola Garvin"
+        }
+      ],
+      "protagonists": [
+        {
+          "protagonistId": 10,
+          "firstName": "Peter",
+          "lastName": "the Great"
+        }
+      ]
+    },
+    {
+      "bookId": 3,
+      "title": "War And Peace",
+      "authors": [
+        {
+          "authorId": 2,
+          "firstName": "Leo",
+          "lastName": "Tolstoy",
+          "country": null,
+          "fullName": "Leo Tolstoy"
+        }
+      ],
+      "protagonists": [
+        {
+          "protagonistId": 8,
+          "firstName": "Anna",
+          "lastName": "Pavlovna"
+        },
+        {
+          "protagonistId": 9,
+          "firstName": "Pierre",
+          "lastName": "Bezukhov"
+        }
+      ]
+    },
+    {
+      "bookId": 2,
+      "title": "Crime And Punishment",
+      "authors": [
+        {
+          "authorId": 1,
+          "firstName": "Fyodor",
+          "lastName": "Dostoyevsky",
+          "country": null,
+          "fullName": "Fyodor Dostoyevsky"
+        }
+      ],
+      "protagonists": [
+        {
+          "protagonistId": 5,
+          "firstName": "Rodion",
+          "lastName": "Raskolnikov"
+        },
+        {
+          "protagonistId": 6,
+          "firstName": "Sofya",
+          "lastName": "Marmeladov"
+        },
+        {
+          "protagonistId": 7,
+          "firstName": "Avdotya",
+          "lastName": "Raskolnikov"
+        }
+      ]
+    }
+  ],
+  "totalCount": 6
+}

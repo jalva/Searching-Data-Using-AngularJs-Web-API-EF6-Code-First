@@ -1,0 +1,20 @@
+[
+  {
+    "index": 1,
+    "title": "Id",
+    "field": "bookId",
+    "width": "20%",
+    "sortable": true,
+    "orderBy": "BookId",
+    "visible": true
+  },
+  {
+    "index": 2,
+    "title": "Title",
+    "field": "title",
+    "width": null,
+    "sortable": true,
+    "orderBy": "BookTitle",
+    "visible": true
+  }
+]
