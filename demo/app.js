@@ -20,7 +20,7 @@ app.config(function ($routeProvider) {
 
 });
 
-app.constant('searchUrl', '/demo/api/books.json');
-app.constant('getFiltersUrl', '/demo/api/filters.json');
-app.constant('getColumnsUrl', '/demo/api/schema.json');
+app.constant('searchUrl', 'demo/api/books.json');
+app.constant('getFiltersUrl', 'demo/api/filters.json');
+app.constant('getColumnsUrl', 'demo/api/schema.json');
 
