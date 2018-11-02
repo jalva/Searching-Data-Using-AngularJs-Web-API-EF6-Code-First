@@ -10,6 +10,7 @@ using WebAppWithSearchFilters.Models.BookData;
 using WebAppWithSearchFilters.Models.Filters;
 using WebAppWithSearchFilters.Models.ModelBinders;
 using WebAppWithSearchFilters.Models.Repos;
+using WebAppWithSearchFilters.Models.Search;
 
 namespace WebAppWithSearchFilters.Controllers
 {
@@ -17,15 +18,15 @@ namespace WebAppWithSearchFilters.Controllers
     {
 
         // GET api/values
-        public List<BookColumn> Get()
+        public List<ItemColumn> Get()
         {
-            return new List<BookColumn>
+            return new List<ItemColumn>
             {
-                new BookColumn
+                new ItemColumn
                 {
                     Title="Id", Field="bookId", Visible=true, Sortable=true, width="20%", OrderBy= BookOrderBy.BookId.ToString(), Index=1
                 },
-                new BookColumn
+                new ItemColumn
                 {
                     Title="Title", Field="title", Visible=true, Sortable=true, OrderBy= BookOrderBy.BookTitle.ToString(), Index=2
                 }

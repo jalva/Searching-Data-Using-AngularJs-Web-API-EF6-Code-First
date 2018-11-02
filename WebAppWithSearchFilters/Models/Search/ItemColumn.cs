@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace WebAppWithSearchFilters.Models.BookData
+namespace WebAppWithSearchFilters.Models.Search
 {
-    public class BookColumn
+    public class ItemColumn
     {
         public int Index { get; set; }
         public string Title { get; set; }

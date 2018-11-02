@@ -2,7 +2,8 @@
     templateUrl: 'views/searchResults.html',
     bindings: {
         columns: '<',
-        results: '<'
+        results: '<',
+        collectionName: '@'
     },
     controller: function ($scope, $location) {
         var $ctrl = this;

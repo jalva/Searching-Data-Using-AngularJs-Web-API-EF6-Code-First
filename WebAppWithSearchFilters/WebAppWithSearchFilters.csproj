@@ -196,16 +196,16 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\BookData\AuthorDto.cs" />
-    <Compile Include="Models\BookData\BookColumn.cs" />
+    <Compile Include="Models\Search\ItemColumn.cs" />
     <Compile Include="Models\BookData\BookDto.cs" />
-    <Compile Include="Models\Filters\SearchResponseDto.cs" />
+    <Compile Include="Models\Search\SearchResponseDto.cs" />
     <Compile Include="Models\BookData\ProtagonistDto.cs" />
     <Compile Include="Models\Entities\BookContext.cs" />
     <Compile Include="Models\Entities\DbContextInitializer.cs" />
     <Compile Include="Models\Entities\MigrateDbConfiguration.cs" />
     <Compile Include="Models\BookData\BookOrderBy.cs" />
-    <Compile Include="Models\Filters\SearchFilter.cs" />
-    <Compile Include="Models\Filters\SearchResultsResponse.cs" />
+    <Compile Include="Models\Search\SearchFilter.cs" />
+    <Compile Include="Models\Search\SearchResultsResponse.cs" />
     <Compile Include="Models\IoC\UnityResolver.cs" />
     <Compile Include="Models\ModelBinders\CsvToArrayModelBinderAttribute.cs" />
     <Compile Include="Models\Repos\BookFilterRepository.cs" />
