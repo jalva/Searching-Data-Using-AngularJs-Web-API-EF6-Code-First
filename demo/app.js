@@ -20,7 +20,7 @@ app.config(function ($routeProvider) {
 
 });
 
-app.constant('searchUrl', 'demo/api/books.json');
-app.constant('getFiltersUrl', 'demo/api/filters.json');
-app.constant('getColumnsUrl', 'demo/api/schema.json');
+app.constant('searchUrl', '/Search-with-Filters-in-AngularJs-Web-API-EF6-Code-First/demo/api/books.json');
+app.constant('getFiltersUrl', '/Search-with-Filters-in-AngularJs-Web-API-EF6-Code-First/demo/api/filters.json');
+app.constant('getColumnsUrl', '/Search-with-Filters-in-AngularJs-Web-API-EF6-Code-First/demo/api/schema.json');
 
