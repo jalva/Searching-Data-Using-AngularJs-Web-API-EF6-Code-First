@@ -8,7 +8,7 @@
     </label>
     <div class="nested-filter-terms" ng-show="::(filterTerm.nestedFilters && filterTerm.nestedFilters.length > 0)" style="padding-left: 15px;">
         <div ng-repeat="nestedFilter in ::filterTerm.nestedFilters">
-            <checkbox-filter filter="nestedFilter" on-filter-selected="$ctrl.onFilterSelected(nestedFilter, filterTerm)" 
+            <checkbox-filter filter="nestedFilter" on-filter-selected="$ctrl.selectFilter(nestedFilter, filterTerm)" 
                              parent-filter-term="filterTerm"></checkbox-filter>
         </div>
     </div>

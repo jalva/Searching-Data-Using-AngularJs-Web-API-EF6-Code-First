@@ -1,8 +1,7 @@
 ﻿app.component('searchFilters', {
     templateUrl: 'views/searchFilters.html',
     bindings: {
-        filters: '<',
-        onFilterSelected: '&'
+        filters: '<'
     },
     controller: function ($location) {
 

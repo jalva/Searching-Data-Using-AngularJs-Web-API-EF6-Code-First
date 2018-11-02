@@ -2,7 +2,6 @@
     templateUrl: 'views/checkboxFilter.html',
     bindings: {
         filter: '<',
-        onFilterSelected: '&',
         parentFilterTerm: '='
     },
     controller: function ($filter, $scope) {
