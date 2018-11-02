@@ -45,16 +45,7 @@ namespace WebAppWithSearchFilters.Models.Repos
                 {
                     Id = g.Key.ToString(),
                     Name = g.First().FullName,
-                    Count = g.Count(),
-                    NestedFilters = new List<SearchFilter>
-                    {
-                        new SearchFilter{FilterName="Test", FilterQsKey="test", FilterTerms=new List<FilterTerm>{
-                            new FilterTerm{Id=$"test{temp++}", Name="All", Count=5, IsAllOption=true},
-                            new FilterTerm{Id=$"test{temp++}", Name="name1", Count=3},
-                            new FilterTerm{Id=$"test{temp++}", Name="name2",Count=2}
-                        } }
-                    }
-
+                    Count = g.Count()
 
                 }).ToList()
             };

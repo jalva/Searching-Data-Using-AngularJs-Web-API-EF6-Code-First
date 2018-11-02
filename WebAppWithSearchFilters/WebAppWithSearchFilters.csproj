@@ -204,7 +204,6 @@
     <Compile Include="Models\Entities\DbContextInitializer.cs" />
     <Compile Include="Models\Entities\MigrateDbConfiguration.cs" />
     <Compile Include="Models\BookData\BookOrderBy.cs" />
-    <Compile Include="Models\Filters\FilterCounts.cs" />
     <Compile Include="Models\Filters\SearchFilter.cs" />
     <Compile Include="Models\Filters\SearchResultsResponse.cs" />
     <Compile Include="Models\IoC\UnityResolver.cs" />
