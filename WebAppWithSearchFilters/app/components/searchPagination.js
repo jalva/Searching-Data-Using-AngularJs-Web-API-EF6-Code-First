@@ -26,7 +26,6 @@
 
         $rootScope.$on('filterTermSelected', function (ev, args) {
             // reset to first page for every new search
-            console.log('test..............')
             selectedPage = null;
             $location.search(filterQsKey, 0);
         });
