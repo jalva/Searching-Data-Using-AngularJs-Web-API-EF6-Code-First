@@ -12,22 +12,22 @@ SearchFilter.prototype.hasSelections = (function () {
             if (filter.filterTerms[i].selected) {
                 result = true;
                 break;
+            }
 
-                if (filter.filterTerms[i].nestedFilters) {
-                    for (var i2 = 0; i2 < filter.filterTerms[i].nestedFilters.length; i2++) {
-                        result = _hasSelections(filter.filterTerms[i].nestedFilters[i2]);
-                        if (result)
-                            break;
-                    }
+            if (filter.filterTerms[i].nestedFilters) {
+                for (var i2 = 0; i2 < filter.filterTerms[i].nestedFilters.length; i2++) {
+                    result = _hasSelections(filter.filterTerms[i].nestedFilters[i2]);
+                    if (result)
+                        break;
                 }
             }
         }
-        return result          
+        return result;         
     }
 
     return function () {
         return _hasSelections(this);
-    }
+    };
 })();
 
 SearchFilter.prototype.updateFromQs = (function () {
