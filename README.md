@@ -6,4 +6,4 @@ The AngularJs filtering logic is data schema-agnostic and lends itself easily to
 
 ![web api search with filters](https://github.com/jalva/Search-with-Filters-in-AngularJs-Web-API-EF6-Code-First/blob/master/searchWithFilters.PNG)
 
-See partial demo [here](https://jalva.github.io/Search-Data-Using-AngularJs-Web-API-EF6-Code-First/#!/book)
+See partial demo [here](https://jalva.github.io/Searching-Data-Using-AngularJs-Web-API-EF6-Code-First/#!/book)
