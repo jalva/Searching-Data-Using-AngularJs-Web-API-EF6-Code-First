@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebAppWithSearchFilters.Models
 {
-    class TestRunsDbContextDbInitializer : MigrateDatabaseToLatestVersion<BookContext, MigrateDbConfiguration> //DropCreateDatabaseIfModelChanges<TestRunsDbContext>
+    class DbContextInitializer : MigrateDatabaseToLatestVersion<BookContext, MigrateDbConfiguration> //DropCreateDatabaseIfModelChanges<TestRunsDbContext>
     {
     }
 }

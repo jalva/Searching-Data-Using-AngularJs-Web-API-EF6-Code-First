@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Configuration;
+using System.Data.Common;
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
@@ -26,7 +27,12 @@ namespace WebAppWithSearchFilters.Models
 
         public BookContext(string connString) : base(connString)
         {
-            Database.SetInitializer(new TestRunsDbContextDbInitializer());
+            Database.SetInitializer(new DbContextInitializer());
+        }
+
+        public BookContext(DbConnection connection, bool contextOwnsConnection):base(connection, contextOwnsConnection)
+        {
+            Database.SetInitializer(new DbContextInitializer());
         }
         
     }

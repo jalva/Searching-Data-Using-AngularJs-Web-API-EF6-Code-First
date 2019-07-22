@@ -195,6 +195,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models2\Repositories\GenericRepository.cs" />
+    <Compile Include="Models2\Services\BookSearchService.cs" />
+    <Compile Include="Models2\Services\IBookSearchService.cs" />
+    <Compile Include="Models2\UnitOfWork\IMyUnitOfWork.cs" />
+    <Compile Include="Models2\UnitOfWork\MyEFUnitOfWork.cs" />
     <Compile Include="Models\BookData\AuthorDto.cs" />
     <Compile Include="Models\Search\ItemColumn.cs" />
     <Compile Include="Models\BookData\BookDto.cs" />
@@ -278,6 +283,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models2\DbContexts\" />
+    <Folder Include="Models2\Dtos\Partials\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
